@@ -1,0 +1,7 @@
+[database]
+dialect = "postgres"
+dsn = "host=localhost user=postgres password=postgres dbname=stblog port=5432 sslmode=disable TimeZone=Asia/Shanghai"
+
+[logger]
+log_level = "info"
+slow_threshold = 1
